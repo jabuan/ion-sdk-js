@@ -13,6 +13,7 @@ export const VideoResolutions: VideoResolutions = {
   shd: { width: { ideal: 960 }, height: { ideal: 540 } },
   hd: { width: { ideal: 1280 }, height: { ideal: 720 } },
   fhd: { width: { ideal: 1920 }, height: { ideal: 1090 } },
+  qhd: { width: { ideal: 2560 }, height: { ideal: 1440 } },
 };
 
 export interface StreamOptions extends MediaStreamConstraints {
